@@ -1,0 +1,34 @@
+.nav-text {
+    color: black !important;
+    text-align: center;
+    font-size: 8mm;
+;
+  }
+  
+  .nav-text:hover {
+    text-decoration: underline;
+    text-decoration-color: #a04eff;
+    text-decoration-thickness: 6px;
+  }
+  
+  .nav-name {
+    color: black !important;
+    font-weight: bold;
+    
+  }
+  
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+.emoji{
+  width: 5vw;
+  margin-right: 1000mm;
+}
+
+@media screen and (max-width: 991.2px) {
+    .nav-text{
+      text-align: left;
+      margin-right: 800px;
+    }
+}

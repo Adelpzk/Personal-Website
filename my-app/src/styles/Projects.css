@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+.projects-header {
+  margin-left: 20px;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 70pt;
+  font-family: "lato";
+  text-decoration: underline;
+  text-decoration-color: #a04eff;
+  text-decoration-thickness: 10px;
+}
+
+.div-projects {
+  background-color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+}
+
+.grid {
+  padding: 20px;
+}
+
+.img-splitpeas {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-splitpeas {
+  position: absolute;
+  width: 90%;
+  height: fit-content;
+  bottom: 10%;
+  left: 5%;
+  right: 5%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #a04eff;
+}
+
+.splitpeas {
+  position: relative;
+  width: 40vw;
+}
+
+.splitpeas:hover .img-splitpeas {
+  opacity: 0.5;
+}
+
+.splitpeas:hover .overlay-splitpeas {
+  opacity: 1;
+}
+
+.img-quicktab {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-quicktab {
+  position: absolute;
+  width: 90%;
+  height: fit-content;
+  bottom: 10%;
+  left: 5%;
+  right: 5%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #a04eff;
+}
+
+.quicktab {
+  position: relative;
+  width: 40vw;
+}
+
+.quicktab:hover .img-quicktab {
+  opacity: 0.5;
+}
+
+.quicktab:hover .overlay-quicktab {
+  opacity: 1;
+}
+
+.img-habbit {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-habbit {
+  position: absolute;
+  width: 90%;
+  height: fit-content;
+  bottom: 10%;
+  left: 5%;
+  right: 5%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #a04eff;
+}
+
+.habbit {
+  position: relative;
+  width: 40vw;
+}
+
+.habbit:hover .img-habbit {
+  opacity: 0.4;
+}
+
+.habbit:hover .overlay-habbit {
+  opacity: 1;
+}
+
+.img-rally {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-rally {
+  position: absolute;
+  width: 90%;
+  height: fit-content;
+  bottom: 10%;
+  left: 5%;
+  right: 5%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #a04eff;
+}
+
+.rally {
+  position: relative;
+  width: 40vw;
+}
+
+.rally:hover .img-rally {
+  opacity: 0.5;
+}
+
+.rally:hover .overlay-rally {
+  opacity: 1;
+}
+
+.text {
+  padding: 10px;
+  font-size: 15px;
+  font-family: "lato";
+}
+
+@media screen and (max-width: 1300px) {
+  .projects-header {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 70pt;
+    font-family: "lato";
+    text-decoration: underline;
+    text-decoration-color: #a04eff;
+    text-decoration-thickness: 10px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .splitpeas {
+    width: 30vw;
+  }
+  .quicktab {
+    width: 30vw;
+  }
+  .habbit {
+    width: 30vw;
+  }
+  .rally {
+    width: 30vw;
+  }
+  .div-projects {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .splitpeas {
+    width: 30vw;
+  }
+  .quicktab {
+    width: 30vw;
+  }
+  .habbit {
+    width: 30vw;
+  }
+  .rally {
+    width: 30vw;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .splitpeas {
+    width: 70vw;
+  }
+  .quicktab {
+    width: 70vw;
+  }
+  .habbit {
+    width: 70vw;
+  }
+  .rally {
+    width: 70vw;
+  }
+
+  .text {
+    font-size: 14px;
+    font-family: "lato";
+  }
+}
+
+@media screen and (max-width: 1157px) {
+  .projects-header {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 789px) {
+  .projects-header {
+    font-size: 25px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .projects-header {
+    font-size: 20px;
+  }
+}

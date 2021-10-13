@@ -61,17 +61,6 @@ function About() {
                   <Image className="icon contact-icon" src={Resume}></Image>
                 </a>
               </Col>
-              <Col>
-                <a
-                  href="https://www.instagram.com/adelpzk/?hl=en"
-                  target="_blank"
-                >
-                  <Image
-                    className="icon contact-icon"
-                    src={Instagram}
-                  ></Image>
-                </a>
-              </Col>
             </Row>
           </div>
         </Col>

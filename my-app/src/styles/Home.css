@@ -55,7 +55,7 @@
   margin-top: 25px;
   width: 39%;
   align-items: center;
-  position: fixed;
+  position: relative;
 }
 
 .icon:hover {
@@ -69,16 +69,24 @@
 .icon {
   width: 50px;
 }
-.icon-devpost {
-  height: 50px;
-  margin-top: -2px;
+
+.icon-Insta{
+    width: 50px;
 }
 
+
 .copyright {
-    text-align: center;
     width: 100%;
     position:relative;
     top: 25px;
+    margin-left: 5mm;
+  }
+
+  @media screen and (max-width: 1459px) {
+    .icon-Insta{
+        margin-left: 84mm;
+        margin-top: -24mm;
+    }
   }
 
 @media screen and (max-width: 1345.6px) {
@@ -141,6 +149,9 @@
   .icon {
     width: 30px;
   }
+  .icon-Insta{
+    width: 30px;
+}
   .icon-devpost {
     height: 33px;
     margin-top: -2px;
@@ -173,6 +184,9 @@
   .icon {
     width: 30px;
   }
+  .icon-Insta{
+    width: 30px;
+}
   .icon-devpost {
     height: 33px;
     margin-top: -2px;
@@ -208,6 +222,9 @@
   .icon {
     width: 20px;
   }
+  .icon-Insta{
+    width: 20px;
+}
   .icon-devpost {
     height: 21px;
     margin-top: -2px;

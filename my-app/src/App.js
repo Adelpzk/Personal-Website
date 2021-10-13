@@ -4,6 +4,7 @@ import { Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import Home from "./components/Home";
 import Navigation from "./components/Navbar";
+import "./styles/Home.css"
 
 class App extends Component {
   render() {

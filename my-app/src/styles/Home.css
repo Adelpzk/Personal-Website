@@ -59,11 +59,7 @@
 }
 
 .icon:hover {
-  border-bottom: 10px;
-  border-color: red;
-  border-width: 15px;
-  color: lightgrey;
-  background-color: rgba(211, 211, 211, 0.774);
+  background-color: rgba(116, 108, 108, 0.486);
 }
 
 .icon {

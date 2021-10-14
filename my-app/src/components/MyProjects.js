@@ -18,8 +18,8 @@ function Projects() {
             <a href="https://github.com/Adelpzk/thomson-reuters-project">
               <Image src={tr} className="img-quicktab"></Image>
             </a>
-            <div class="overlay-quicktab">
-              <div class="text">
+            <div className="overlay-quicktab">
+              <div className="text">
                 <i><b>Software Solution Architect</b> @ <b>Thomson Reuters</b></i> - Developed and presented and an end to end 
                 proof of concept <b>Federated GraphQL website experience</b> which <b>reduced redundant database usage 
                 in downstream applications by 100%</b>. Migrated from a reverse proxy server to a <b>Next.js web-app </b> 
@@ -72,7 +72,8 @@ function Projects() {
           </div>
         </div>
       </Row>
-
+      {' '}<br/>
+      {' '}<br/>
     </div>
   );
 }

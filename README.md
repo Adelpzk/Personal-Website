@@ -1,5 +1,5 @@
 # Personal-Website
-My personal website. created using ReactJs
+My personal website. Created using ReactJs
 
 # Getting Started with Create React App
 

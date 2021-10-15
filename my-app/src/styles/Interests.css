@@ -1,0 +1,86 @@
+.div-Interests{
+  background-color: #a04eff;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 680px;
+  }
+  
+  .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+
+  .slide-show{
+    padding: 15px 15px;
+    box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    margin: 2em 0;
+    
+  }
+
+  @media screen and (max-width: 1450px) {
+
+    .each-slide > div {
+        height: 500px;
+      }
+    
+  }
+
+  @media screen and (max-width: 1141px) {
+
+    .each-slide > div {
+        height: 400px;
+      }
+    
+  }
+
+  @media screen and (max-width: 950px) {
+
+    .each-slide > div {
+        height: 350px;
+      }
+    
+  }
+
+  @media screen and (max-width: 860px) {
+
+    .each-slide > div {
+        height: 300px;
+      }
+    
+  }
+
+  @media screen and (max-width: 760px) {
+
+    .each-slide > div {
+        height: 250px;
+      }
+    
+  }
+
+  @media screen and (max-width: 670px) {
+
+    .each-slide > div {
+        height: 200px;
+      }
+    
+  }
+
+  @media screen and (max-width: 380px) {
+
+    .each-slide > div {
+        height: 110px;
+      }
+    
+  }

@@ -6,6 +6,7 @@ import About from "./About";
 import MyProjects from "./MyProjects"
 import Exprience from "./Exprience";
 import Education from "./Education"
+import Interests from "./Interests"
 
 import "../styles/Home.css";
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
       <MyProjects />
       <Exprience />
       <Education />
+      <Interests />
     </div>
   );
 }

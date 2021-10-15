@@ -68,6 +68,28 @@ render() {
           > 
           Exprience
           </Link>
+          <Link
+            className = "nav-texts"
+            activeClass="active"
+            to="education"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          > 
+          Education
+          </Link>
+          <Link
+            className = "nav-texts"
+            activeClass="active"
+            to="interests"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          > 
+          Interests
+          </Link>
         </ul>
         </Nav>
       </Navbar>

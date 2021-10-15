@@ -1,0 +1,80 @@
+
+  .div-education {
+    background-color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+  }
+  
+  
+  .flex-container-ed {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 10px;
+    align-items: center;
+  }
+  
+.school {
+   
+    position: relative;
+    text-align: left;
+    padding: 10px 10px;
+    width: fit-content; 
+    min-height: 10em; 
+    height: fit-content;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 2em 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .school {
+      width: min-content;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+    .iconEd {
+      margin-bottom: 1em;
+    }
+  }
+  
+  ul {
+    
+    list-style: circle inside black;
+    padding: 0.6em 1.6em; 
+    font-size: 1.25em;
+  }
+  
+  li {
+    width: 100%; 
+  }
+  
+  .text-ed {
+    
+    vertical-align: top;
+    
+    position: relative;
+    width: 28em;
+    height: 100%;
+  }
+  
+  .iconEd {
+    position: relative;
+    
+    min-height: 100%;
+    height: 100%;
+    width: fit-content;
+    align-self: center;
+  }
+  
+  .iconEd img {
+    border-radius: 50%;
+    position: relative;
+    margin: 0 10px;
+    max-width: 9em;
+  }

@@ -11,8 +11,9 @@ import "../styles/Exprience.css"
 
 function Exprience(){
     return (
-        <div className= "div-intro">
-            <div className="projects-header2">Exprience</div>
+        <div className= "div-exprience" id = "exprience">
+            <div className="projects-header2">Work Exprience</div>
+            < div className ="container">
             <div className="flex-container">
         <div className="exp" id="thomson">
           <img src= {TR} className = "img" />
@@ -20,13 +21,17 @@ function Exprience(){
             <h3><b>Software Solution Architect</b></h3>
             <h4>
               Thomson Reuters <br /><span 
-                >July 2021 - Present</span
+                >July 2021 - August 2021</span
               >
             </h4>
             <p>
-              Building a proof-of-concept <strong>NextJS</strong> web-app with a
-              <strong> Federated GraphQL</strong> system to display Salesforce
-              product data and Wordpress blogs.
+              <ul>
+                <li>Worked in a team of 5 to build a proof-of-concept <strong>NextJS</strong> web-app with a
+                <strong> Federated GraphQL</strong> system to display Salesforce
+                product data and Wordpress blogs.</li>
+                <li>Unified the process of accessing data from 10+ data systems and back-end services including
+                <b> Salesforce, MongoDB, Boomi and Apigee by building a GraphQL server.</b></li>
+              </ul>
             </p>
           </div>
         </div>
@@ -40,9 +45,13 @@ function Exprience(){
               >
             </h4>
             <p>
-              Gaining experience through creating a Doctor/Patient database
-              frontend and backend using
-              <strong> JavaScript, NodeJS, REST, GraphQL, React, and Redux.</strong>
+              <ul>
+                <li>Gained experience through creating a Doctor/Patient database
+                frontend and backend using
+                <strong> JavaScript, NodeJS, REST, GraphQL, React, and Redux.</strong></li>
+                <li>Learned and implemented software development principles such as <b> Test-Driven
+                    Development and application debugging </b></li>
+              </ul>
             </p>
           </div>
         </div>
@@ -52,21 +61,20 @@ function Exprience(){
             <h3><b>Peer Tutor</b></h3>
             <h4>
               Self Employed <br /><span
-                >Oct. 2018 - May 2021</span
+                >October 2018 - May 2021</span
               >
             </h4>
             <p>
-            Worked with High School and University students in classrooms or home environments to provide
-            educational support.    
+            <ul>
+              <li>Worked with High School and University students in classrooms or home environments to provide
+              educational support.</li> 
+              <li>Collaborated with students to complete homework assignments, identify weaknesses.</li>  
+            </ul>
             </p>
           </div>
         </div>
       </div>
-      <p>
-          {' '}<br/>
-          {' '}<br/>
-          {' '}<br/>
-      </p>
+      </div>
     </div>
 
     );

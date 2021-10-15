@@ -12,7 +12,7 @@ import "../styles/Home.css";
 
 function About() {
   return (
-    <div className="div-intro">
+    <div className="div-intro" id ="about">
       <Row className="intro">
         <Col xs={8} md={4}>
           <Image src={Adel} className="image-adel" />

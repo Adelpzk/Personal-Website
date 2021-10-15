@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import Home from "./components/Home";
-import Navigation from "./components/Navbar";
+import Navigation from "./components/Navigation";
 import "./styles/Home.css"
 
 class App extends Component {
@@ -16,9 +16,14 @@ class App extends Component {
             <Route path="/" component={Home} exact />
             <Route component={Error} />
           </Switch>
-            <Row className="copyright">
+            <div className="copyright">
+              {' '}<br/>
+              Coded by Adel Pazoki using ReactJS 
+              // 
               Copyright © 2021 Adel Pazoki
-            </Row>
+              {' '}<br/>
+              {' '}<br/>
+            </div>
         </div>
       </BrowserRouter>
     );

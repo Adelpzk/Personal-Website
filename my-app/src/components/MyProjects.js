@@ -10,7 +10,7 @@ import DT from "../images/DecisionSupport.png"
 
 function Projects() {
   return (
-    <div className="div-projects">
+    <div className="div-projects" id = "myprojects">
       <div className="projects-header">Relevant Projects</div>
       <Row style={{ justifyContent: "center" }}>
       <div className="grid">

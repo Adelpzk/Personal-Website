@@ -4,8 +4,13 @@
   background-color: #a04eff;
   padding-left: 20px;
   padding-right: 50px;
+  margin-top: 60px;
 }
 
+
+.Navbarfixed > .active {
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
 .intro {
   padding-top: 100px;
   padding-bottom: 80px;
@@ -72,10 +77,11 @@
 
 
 .copyright {
-    width: 100%;
-    position:relative;
-    top: 25px;
-    margin-left: 5mm;
+  text-align: center;
+  width: 100%;
+  font-family: "lato";
+  font-weight: 700;
+  color: black;
   }
 
   @media screen and (max-width: 1459px) {
@@ -239,6 +245,7 @@
     padding-right: 0px;
   }
   .header-name {
+    margin-top: 5mm;
     text-align: center;
   }
   .row-icons {

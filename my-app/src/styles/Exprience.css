@@ -43,6 +43,16 @@
     }
   }
 
+  /* @media screen and (max-width: 500px) {
+    .flex-container{
+      margin-left: -26mm;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .flex-container{
+      margin-left: -31.5mm;
+    }
+  } */
   @media screen and (max-width: 1185px) {
     .flex-container {
       vertical-align: middle;

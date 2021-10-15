@@ -11,19 +11,20 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
-    height: 680px;
+    height: 800px;
   }
   
-  .each-slide span {
-    padding: 20px;
-    font-size: 20px;
-    background: #efefef;
-    text-align: center;
+  .each-slide-climbing2 > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 800px;
   }
+  
 
   .slide-show{
     padding: 15px 15px;
-    box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     margin: 2em 0;
     
@@ -37,9 +38,23 @@
     
   }
 
+  @media screen and (min-width: 1450px) {
+
+    .slide-show{
+
+      padding-left: 200px;
+      padding-right: 200px;
+
+    }
+    
+  }
+
   @media screen and (max-width: 1141px) {
 
     .each-slide > div {
+        height: 400px;
+      }
+      .each-slide-climbing2 > div{
         height: 400px;
       }
     
@@ -50,6 +65,11 @@
     .each-slide > div {
         height: 350px;
       }
+
+      .each-slide-climbing2 > div{
+        height: 350px;
+      }
+    
     
   }
 
@@ -58,29 +78,34 @@
     .each-slide > div {
         height: 300px;
       }
-    
+
+      .each-slide-climbing2 > div{
+        height: 300px;
+      }  
   }
 
-  @media screen and (max-width: 760px) {
 
-    .each-slide > div {
-        height: 250px;
-      }
-    
-  }
+  @media screen and (max-width: 450px) {
 
-  @media screen and (max-width: 670px) {
-
-    .each-slide > div {
+      .each-slide > div {
         height: 200px;
       }
-    
+      .each-slide-climbing2 > div{
+        height: 200px;
+      }  
   }
+  @media screen and (max-width: 760px) {
 
-  @media screen and (max-width: 380px) {
+    .div-Interests{
+      padding-left: 0px;
+      padding-right: 0px;
 
-    .each-slide > div {
-        height: 110px;
+    }
+    
+
+    /* .each-slide > div {
+        height: 250px;
       }
-    
+     */
   }
+

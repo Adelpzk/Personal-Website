@@ -12,9 +12,10 @@ import "../styles/Exprience.css"
 function Exprience(){
     return (
         <div className= "div-exprience" id = "exprience">
-            <div className="projects-header2">Work Exprience</div>
+            <div className="projects-header2">Exprience</div>
             < div className ="container">
             <div className="flex-container">
+            <div className="grid">
         <div className="exp" id="thomson">
           <img src= {TR} className = "img" />
           <div className="text">
@@ -34,6 +35,7 @@ function Exprience(){
               </ul>
             </p>
           </div>
+        </div>
         </div>
         <div className="exp" id="manulife">
           <img src= {Manulife} className = "img" />

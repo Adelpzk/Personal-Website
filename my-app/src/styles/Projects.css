@@ -24,10 +24,11 @@
 }
 
 .projects-header2 {
-  margin-left: 30px;
+  margin-left: 20px;
   font-size: 50px;
   font-weight: 900;
   line-height: 70pt;
+  padding: 0px 0px 0px 0px ;
   font-family: "lato";
   color: black;
   text-decoration: underline;
@@ -47,6 +48,7 @@
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 10px;
+  font-family: "lato";
 }
 
 .grid {
@@ -171,7 +173,21 @@
     font-size: 35px;
   }
 }
+@media screen and (max-width: 760px) {
 
+  .div-projects {
+
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+  
+  .div-exprience {
+
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
 @media screen and (max-width: 789px) {
   .projects-header {
     font-size: 25px;
@@ -198,6 +214,17 @@
   }
 }
 
+/* @media screen and (max-width: 400px) {
+  .projects-header2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .projects-header2 {
+    font-size: 20px;
+  }
+} */
 @media screen and (max-width: 300px) {
   .projects-header {
     font-size: 10px;

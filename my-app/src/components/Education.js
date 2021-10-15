@@ -19,7 +19,7 @@ import "../styles/Exprience.css"
                     <div className="flex-container-ed">
                         <div className="school" id="waterloo">
                             <div className="text-ed">
-                                <h3>University of Waterloo</h3>
+                                <h3><b>University of Waterloo</b></h3>
                                 <h4>Management Engineering<br />2020 - 2025</h4>
                                 <ul>
                                 <li>Software Engineering Specialization</li>
@@ -33,11 +33,11 @@ import "../styles/Exprience.css"
                         </div>
                         <div className="school" id="glen">
                             <div className="text-ed">
-                                <h3>Sir Frederick Banting Secondary School</h3>
+                                <h3><b>Sir Frederick Banting Secondary School</b></h3>
                                 <h4>2016 - 2020</h4>
                                 <ul>
                                 <li>
-                                    Activites: Varisty Soccer Player, Wrestling Team,
+                                    Activites: Wrestling &amp; Varisty Soccer Player 
                                 </li>
                                 </ul>
                             </div>

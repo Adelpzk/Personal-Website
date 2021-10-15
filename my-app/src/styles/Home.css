@@ -71,24 +71,12 @@
   width: 50px;
 }
 
-.icon-Insta{
-    width: 50px;
-}
-
-
 .copyright {
   text-align: center;
   width: 100%;
   font-family: "lato";
   font-weight: 700;
   color: black;
-  }
-
-  @media screen and (max-width: 1459px) {
-    .icon-Insta{
-        margin-left: 84mm;
-        margin-top: -24mm;
-    }
   }
 
 @media screen and (max-width: 1345.6px) {
@@ -151,13 +139,6 @@
   .icon {
     width: 30px;
   }
-  .icon-Insta{
-    width: 30px;
-}
-  .icon-devpost {
-    height: 33px;
-    margin-top: -2px;
-  }
 
   .row-icons {
     margin-top: 20px;
@@ -186,13 +167,7 @@
   .icon {
     width: 30px;
   }
-  .icon-Insta{
-    width: 30px;
-}
-  .icon-devpost {
-    height: 33px;
-    margin-top: -2px;
-  }
+
 
   .row-icons {
     margin-top: 20px;
@@ -223,13 +198,6 @@
 
   .icon {
     width: 20px;
-  }
-  .icon-Insta{
-    width: 20px;
-}
-  .icon-devpost {
-    height: 21px;
-    margin-top: -2px;
   }
 
   .row-icons {

@@ -27,13 +27,13 @@ function Exprience(){
             </h4>
             <p>
               <ul>
-                <h5>
+                
                 <li>Worked in a team of 5 to build a proof-of-concept <strong>NextJS</strong> web-app with a
                 <strong> Federated GraphQL</strong> system to display Salesforce
                 product data and Wordpress blogs.</li>
                 <li>Unified the process of accessing data from 10+ data systems and back-end services including
                 <b> Salesforce, MongoDB, Boomi and Apigee by building a GraphQL server.</b></li>
-                </h5>
+                
               </ul>
             </p>
           </div>

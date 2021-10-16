@@ -5,7 +5,7 @@ import { Card, Button, Container, Row, Col, Image } from "react-bootstrap";
 import TR from "../images/TR-logo.png";
 import Manulife from "../images/manulife.png"
 import Tutor from "../images/Tutor.jpg"
-import "../styles/Projects.css";
+// import "../styles/Projects.css";
 import "../styles/Home.css";
 import "../styles/Exprience.css"
 
@@ -32,6 +32,7 @@ function Exprience(){
                 product data and Wordpress blogs.</li>
                 <li>Unified the process of accessing data from 10+ data systems and back-end services including
                 <b> Salesforce, MongoDB, Boomi and Apigee by building a GraphQL server.</b></li>
+              
               </ul>
             </p>
           </div>

@@ -22,7 +22,7 @@ import "../styles/Exprience.css"
                                 <h3><b>University of Waterloo</b></h3>
                                 <h4>Management Engineering<br />2020 - 2025</h4>
                                 <ul>
-                                <li>Software Engineering Specialization</li>
+                                <li>Software Engineering Option</li>
                                 <li>Term GPA average: 3.93/4.0</li>
                                 <li>Activities: Industry 4.0 Tech Member</li>
                                 </ul>

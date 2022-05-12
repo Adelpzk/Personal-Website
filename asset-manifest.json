@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1b5efbf3.chunk.css",
+    "main.js": "/static/js/main.b4440562.chunk.js",
+    "main.js.map": "/static/js/main.b4440562.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3f5e62d1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3f5e62d1.js.map",
+    "static/css/2.07e5ee60.chunk.css": "/static/css/2.07e5ee60.chunk.css",
+    "static/js/2.6693f990.chunk.js": "/static/js/2.6693f990.chunk.js",
+    "static/js/2.6693f990.chunk.js.map": "/static/js/2.6693f990.chunk.js.map",
+    "static/js/3.782d4605.chunk.js": "/static/js/3.782d4605.chunk.js",
+    "static/js/3.782d4605.chunk.js.map": "/static/js/3.782d4605.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.07e5ee60.chunk.css.map": "/static/css/2.07e5ee60.chunk.css.map",
+    "static/css/main.1b5efbf3.chunk.css.map": "/static/css/main.1b5efbf3.chunk.css.map",
+    "static/js/2.6693f990.chunk.js.LICENSE.txt": "/static/js/2.6693f990.chunk.js.LICENSE.txt",
+    "static/media/Banting1.deb35607.png": "/static/media/Banting1.deb35607.png",
+    "static/media/Biking.346b5c6c.gif": "/static/media/Biking.346b5c6c.gif",
+    "static/media/Climbing.67074270.jpg": "/static/media/Climbing.67074270.jpg",
+    "static/media/Climbing2.cc61153a.jpg": "/static/media/Climbing2.cc61153a.jpg",
+    "static/media/DecisionSupport.af1d57de.png": "/static/media/DecisionSupport.af1d57de.png",
+    "static/media/Instagram.2ddfb599.png": "/static/media/Instagram.2ddfb599.png",
+    "static/media/Montreal.211536c1.jpg": "/static/media/Montreal.211536c1.jpg",
+    "static/media/Soccer.4b8368e4.gif": "/static/media/Soccer.4b8368e4.gif",
+    "static/media/Soccer2.2bc38d7c.jpg": "/static/media/Soccer2.2bc38d7c.jpg",
+    "static/media/TR-logo.2d05af94.png": "/static/media/TR-logo.2d05af94.png",
+    "static/media/TR1.6c1db02a.JPG": "/static/media/TR1.6c1db02a.JPG",
+    "static/media/Tutor.69d5bcbf.jpg": "/static/media/Tutor.69d5bcbf.jpg",
+    "static/media/UWCQ.bdf86a3b.png": "/static/media/UWCQ.bdf86a3b.png",
+    "static/media/WaterlooIcon.4c8baa43.png": "/static/media/WaterlooIcon.4c8baa43.png",
+    "static/media/adelPazokicoloured.dd6ce1e5.jpg": "/static/media/adelPazokicoloured.dd6ce1e5.jpg",
+    "static/media/favicon.83335a1f.ico": "/static/media/favicon.83335a1f.ico",
+    "static/media/bootstrap.css": "/static/media/glyphicons-halflings-regular.be810be3.woff2",
+    "static/media/weeklycourseorganizer.23ea70bc.png": "/static/media/weeklycourseorganizer.23ea70bc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f5e62d1.js",
+    "static/css/2.07e5ee60.chunk.css",
+    "static/js/2.6693f990.chunk.js",
+    "static/css/main.1b5efbf3.chunk.css",
+    "static/js/main.b4440562.chunk.js"
+  ]
+}
